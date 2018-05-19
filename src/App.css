@@ -1,0 +1,76 @@
+.currentBet {
+	margin: 5px 0px;	
+}
+
+.placeBet {
+	margin: 10px 0px;
+}
+
+.field1, .field3, .field5, .field7, .field9, .field12, .field14, .field16, .field18, .field19, .field21, .field23, .field25, .field27, .field30, .field32, .field34, .field36 {
+	background-color:red !important;
+}
+
+.rouletteTable {
+	display: flex;
+	margin:0 auto;
+	width:1200px;
+	height:300px;
+}
+
+.field {
+	transform: rotate(-90deg);
+	font-weight:bold;
+	font-size:1.5em;
+	width:99px;
+	height:99px;
+	display:flex;
+	background-color:green;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.sectionOne {
+	width:400px;
+	border:1px solid black;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column-reverse;
+}
+.sectionTwo {
+	width:400px;
+	border:1px solid black;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column-reverse;
+}
+.sectionThree {
+	width:400px;
+	border:1px solid black;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column-reverse;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
